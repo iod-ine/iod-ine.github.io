@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#signature {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    color: #AAAAAA;
+    font-size: medium;
+}
+
+#signature a:visited {
+  color: #AAAAAA;
+}
+
+a, a:visited {
+  color: #444422;
+}
