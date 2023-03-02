@@ -1,0 +1,11 @@
+p.ui {
+    cursor: default;
+    color: #737373;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+p.ui-active {
+    color: #373737;
+    font-size: 16px;
+}
