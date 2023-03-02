@@ -6,7 +6,18 @@ function setup() {
 
 function draw() {
   background(246);
-  addButton("http://localhost:1234/blur/blur.html", "assets/btn-blur-an-image.png", 50, 50);
+  addButton(
+    "http://localhost:1234/blur/blur.html",
+    "assets/btn-blur-an-image.png",
+    50,
+    50,
+  );
+  addButton(
+    "http://localhost:1234/binary-classification-metrics/metrics.html",
+    "assets/btn-binary-classification-metrics.png",
+    50,
+    110,
+  );
 }
 
 function mouseClicked() {
