@@ -6,6 +6,7 @@ function setup() {
 
 function draw() {
   background(246);
+  addButton("http://localhost:1234/blur/blur.html", "assets/btn-blur-an-image.png", 50, 50);
 }
 
 function mouseClicked() {
@@ -61,4 +62,11 @@ class Paw {
 
     pop();
   }
+}
+
+function addButton(link_src, img_path, x, y) {
+  let link_blur_an_image = createA(link_src, "");
+  link_blur_an_image.position(x, y);
+  let btn_blur_an_image = createImg(img_path);
+  link_blur_an_image.child(btn_blur_an_image);
 }
