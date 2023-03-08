@@ -18,6 +18,12 @@ function draw() {
     50,
     110,
   );
+  addButton(
+    "https://iod-ine.github.io/neighbors/neighbors.html",
+    "assets/btn-neighbors.png",
+    50,
+    250,
+  );
 }
 
 function mouseClicked() {
